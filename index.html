@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sonsie+One" rel="stylesheet">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Pomodoro Timer</h1>
+    </header>
+    <div class="settings">
+        <div class="settingBox">
+            <h4>Session Length</h4>
+            <button value="sessionMinus">-</button>
+            <p id="sessionLength">25</p>
+            <button value="sessionPlus">+</button>
+        </div>
+        <div class="settingBox">
+            <h4>Short Break</h4>
+            <button value="shortMinus">-</button>
+            <p id="shortBreak">5</p>
+            <button value="shortPlus">+</button>
+        </div>
+        <div class="settingBox">
+            <h4>Long Break</h4>
+            <button value="longMinus">-</button>
+            <p id="longBreak">20</p>
+            <button value="longPlus">+</button>
+        </div>
+    </div>
+    <div class="state">
+        <p id="state">Working time!</p> 
+    </div>
+    <canvas class="timer" id="timerCan">
+    </canvas>
+    <div class="timer">
+        <button value="start" id="startButt">start</button>
+    </div>   
+    <footer>
+        <p>Learn about <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro time management technique.</a> <br> Coded by Konstantinos Melios</p>
+    </footer>
+    
+</body>
+</html>

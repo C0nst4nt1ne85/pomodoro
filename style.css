@@ -7,6 +7,7 @@ body {
     font-family: 'Sonsie One', cursive;
     text-align: center;
     color: #FFFFFF;
+    font-size: 1em;
 }
 
 header {
@@ -18,7 +19,7 @@ header {
 #title {
     margin: auto;
     padding: 25px 2px;
-    font-size: 45px;
+    font-size: 2em;
     text-shadow: 2px 2px #000000;
 }
 
@@ -37,25 +38,25 @@ header {
     flex-flow: row wrap;
     justify-content: center;
     width: 30%;
-    margin: 2% auto;
-    font-size: 17px;
+    margin: 1% auto;
+    font-size: 1em;
     text-shadow: 2px 2px #000000;
 }
 
 .settingBox h4 {
     flex: 1 100%;
-    margin: 2%;
+    margin: 1%;
 }
 
 .settingBox p {
-    margin: 3%;
-    font-size: 21px;
+    margin: 2%;
+    font-size: 1em;
 }
 
 button {
     background: none;
     border: none;
-    font-size: 21px;
+    font-size: 1em;
     color:#FFF;
     text-shadow: 2px 2px #000000;
     font-family: 'Sonsie One', cursive;
@@ -86,7 +87,7 @@ button:focus
 
 #state {
     color: #FFF;
-    font-size: 35px;
+    font-size: 2em;
     margin: 0;
     padding: 1%;
     text-shadow: 2px 2px #000;
@@ -96,7 +97,7 @@ button:focus
 canvas {
     height: 300px;
     width: 300px;
-    margin: 2% auto;
+    margin: 1% auto;
     border: 5px solid  #60992d;
     padding: 5px;
     border-radius: 80%;
@@ -115,10 +116,10 @@ canvas {
 footer {
     
     width:90%;
-    margin:8% auto;
+    margin:10% auto 0 auto;
     margin-bottom:0px; 
     color: #60992d;
-    font-size: 15px;
+    font-size: 0.8em;
 }
 
 footer p {
